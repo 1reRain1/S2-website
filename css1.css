@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kufam&display=swap');
+
+body {
+
+      
+     font-family: 'Cairo', sans-serif;
+     background-position-y: 50px;       
+     background-attachment: fixed;   
+     background-size:cover;
+     /* background-image: url(images/ss.png); */
+    
+  
+     
+}
+  header{
+     background-color: #41948e;
+     margin: -10px;
+     direction: rtl;
+     height: 70px;
+     box-shadow: 0px 6px 8px 0px #0b504b5c;
+     
+} 
+.mainpage{
+     direction: rtl;
+}
+  header{
+     position: -webkit-sticky; /* Safari */
+     position: sticky;
+     top: 0;
+}
+
+header div{
+     text-align: center;
+     display: inline-block;
+     font-size: 31px;
+     text-shadow:1px 1px 2px #328067;
+     width: calc(70% / 7);
+     margin-right: 1% ;
+     font-weight: bolder;
+     
+
+}
+
+div h1 {
+
+     font-family: 'Kufam', sans-serif;
+     width:auto;
+     text-align: center  ;
+     font-size:220px;
+     color: #41948e;
+     text-shadow: 8px 5px 8px #0b504b ;
+}
+
+ 
+.main-paragraph {
+     
+     text-align: center;
+     width: 65%;
+     margin: -70px auto 0px auto ;
+     background-color: rgba(255, 255, 255, 0.507);
+     text-align: center;
+     font-size: 37px;
+}
+
+.mainpage{
+
+     display: inline ;
+     margin: 10px 30px 10px 10px ;
+     color: #0b504b     ;
+     font-family: 'Kufam', sans-serif;
+     font-size: 45px             ;
+     text-shadow: 1px 1px 4px #0b504b ;
+
+} 
+a  {
+
+     text-decoration: none;
+     color: #0b504b     ;
+
+}
+a:hover{
+
+     color: aliceblue;
+}
+

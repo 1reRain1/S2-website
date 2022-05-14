@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kufam&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@700&family=Tajawal:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Almarai&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  background-image: url(images/img1.jpg);
+  background-attachment: fixed;
+  background-color: rgb(79, 79, 79);
+}
+header {
+  direction: rtl;
+  background-color: #dad7c1f4;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 200px;
+}
+
+.logo {
+  text-decoration: none;
+  color: #555349;
+  text-shadow: 1px 2px 4px #555349;
+  font-size: 1.1em;
+  font-family: "Kufam", sans-serif;
+  font-weight: 900;
+}
+.nav a {
+  text-decoration: none;
+  padding-left: 30px;
+  font-family: "Cairo", sans-serif;
+  font-size: 1.2em;
+  color: #555349;
+  font-weight: 700;
+}
+
+.nav a:hover {
+  color: rgb(0, 0, 0);
+}
+
+section {
+  background-color: #55534949;
+  /* background-image: url(images/img1.jpg); */
+  text-align: center;
+  margin: 180px 180px 0px 180px;
+  padding: auto;
+  font-size: 30px;
+  border-radius: 20px;
+  display: inline-block;
+  padding: 20px;
+  font-family: "Almarai", sans-serif;
+  line-height: 200%;
+  color: #ffffff;
+  font-weight: 500;
+
+  /* box-shadow: 5px 5px 15px #000000; */
+}
+
+img {
+  height: 110px;
+  width: 175px;
+  margin: 20px 0px 5px 0px;
+}
+
+#time {
+  text-align: center;
+  color: #dad7c1f4;
+  text-shadow: 1px 2px 4px #000000;
+  line-height: 120%;
+  margin-top: -5px;
+  padding-bottom: 10px;
+}
+
+.ayat-al-kursy,
+.el-ikhlas,
+.el-fala9,
+.el-nas,
+.d-sabah,
+.tatmima,
+.sayed-elistighfar,
+.istighfar,
+.ini-oshhidoka,
+.la-yadoro,
+.taw7id,
+.taw7id2,
+.my-fav,
+.salat-r,
+.Ailm,
+.istighfar-1,
+.istighfar-2,
+.ni3ma,
+.radito,
+.al3afew,
+.istighfar-3,
+.istighfar-4,
+.istighfar-5,
+.amsayna-2 {
+  background-color: #55534949;
+  margin: 10px 10px;
+  border-radius: 20px;
+  padding: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: block;
+}
+
+.el-ikhlas:hover,
+.el-fala9:hover,
+.el-nas:hover,
+.d-sabah:hover,
+.tatmima:hover,
+.sayed-elistighfar:hover,
+.ini-oshhidoka:hover,
+.la-yadoro:hover,
+.taw7id:hover,
+.taw7id2:hover,
+.my-fav:hover,
+.salat-r:hover,
+.Ailm:hover,
+.istighfar-1:hover,
+.istighfar-2:hover,
+.ni3ma:hover,
+.radito:hover,
+.al3afew:hover,
+.istighfar-1:hover,
+.istighfar-2:hover,
+.amsayna-2:hover,
+.istighfar-3:hover,
+.istighfar-4:hover,
+.istighfar-5:hover,
+.ayat-al-kursy:hover,
+.istighfar:hover {
+  background-color: #0000007a;
+
+  color: white;
+}
+
+.onwan,
+.ikhlas,
+.nas,
+.fala9 {
+  color: #ffefa2;
+}
