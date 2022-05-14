@@ -83,9 +83,9 @@ section {
   background-color: #55534949;
   right: 18%;
   top: 49%;
-  transform: translateY(-50%) skew(0, -2deg);
+  transform: translateY(-50%) skew(0, -3deg);
   border-radius: 59%;
-  animation: waving 2s ease-in-out infinite alternate;
+  animation: waving 10s ease-in-out infinite alternate;
   overflow: hidden;
   z-index: 10;
 }
