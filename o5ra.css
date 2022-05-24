@@ -15,9 +15,6 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
-body.second {
-  background-color: rgb(118, 118, 118);
-}
 header {
   direction: rtl;
   background-color: #dad7c1f4;
@@ -47,7 +44,7 @@ header {
   border-radius: 30px;
   padding: 0em 1em;
 }
-.nav a#sabah {
+.nav a#o5ra {
   color: white;
   border-radius: 10em;
   background-color: #494738;
@@ -62,21 +59,17 @@ header {
   padding: 0em 1em;
   font-weight: 500;
 }
-
 section {
   background-color: #55534949;
   text-align: center;
-  margin: 180px 180px 0px 180px;
-  padding: auto;
+  margin: 180px 180px;
   font-size: 30px;
   border-radius: 20px;
   display: inline-block;
   padding: 20px;
   font-family: "Almarai", sans-serif;
   line-height: 200%;
-  color: #ffffffd0;
   font-weight: 500;
-  text-shadow: 1px 1px 5px #0000006e;
   box-shadow: 1px 1px 10px black;
 }
 section.small {
@@ -85,109 +78,44 @@ section.small {
 section.large {
   font-size: 32px;
 }
-
-img {
-  height: 110px;
-  width: 175px;
-  margin: 20px 0px 5px 0px;
+section .aonwan {
+  color: rgb(255, 255, 255);
+  margin-top: -15px;
+  padding-bottom: 7px;
 }
 
-#time {
-  text-align: center;
-  color: #ffefa2;
-  text-shadow: 2px 2px 5px #313131;
-  line-height: 12%;
-  margin-top: -5px;
-  padding-bottom: 40px;
-  padding-top: 25px;
-}
-
-.ayat-al-kursy,
-.el-ikhlas,
-.el-fala9,
-.el-nas,
-.d-sabah,
-.tatmima,
-.sayed-elistighfar,
-.istighfar,
-.ini-oshhidoka,
-.la-yadoro,
-.taw7id,
-.taw7id2,
-.my-fav,
-.salat-r,
-.Ailm,
-.istighfar-1,
-.istighfar-2,
-.ni3ma,
-.radito,
-.al3afew,
-.istighfar-3,
-.istighfar-4,
-.istighfar-5,
-.amsayna-2,
-.fi6ra,
-.Ailma {
+.sa3b,
+.hozn,
+.dayn,
+.karb,
+.isti9ad,
+.naum {
   background-color: #0000003e;
-  margin: 10px 10px;
+  margin: 10px;
   border-radius: 20px;
   padding: 2%;
   display: flex;
   align-items: center;
   justify-content: center;
   display: block;
+  color: #ffffffd0;
+  text-shadow: 1px 1px 5px #000000d5;
 }
 
-.el-ikhlas:hover,
-.el-fala9:hover,
-.el-nas:hover,
-.d-sabah:hover,
-.tatmima:hover,
-.sayed-elistighfar:hover,
-.ini-oshhidoka:hover,
-.la-yadoro:hover,
-.taw7id:hover,
-.taw7id2:hover,
-.my-fav:hover,
-.salat-r:hover,
-.Ailm:hover,
-.istighfar-1:hover,
-.istighfar-2:hover,
-.ni3ma:hover,
-.radito:hover,
-.al3afew:hover,
-.istighfar-1:hover,
-.istighfar-2:hover,
-.amsayna-2:hover,
-.istighfar-3:hover,
-.istighfar-4:hover,
-.istighfar-5:hover,
-.ayat-al-kursy:hover,
-.istighfar:hover,
-.fi6ra:hover,
-.Ailma:hover {
-  background-color: #28272665;
-
-  color: white;
+p {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-
-.onwan,
-.ikhlas,
-.nas,
-.fala9 {
+h4 {
+  margin-top: -20px;
   color: #ffefa2;
+  text-shadow: 1px 1px 5px black;
 }
-::-webkit-scrollbar {
-  width: 9px;
+img {
+  height: 110px;
+  width: 175px;
+  margin: 20px 0px 5px 0px;
 }
-::-webkit-scrollbar-track {
-  background: #dad7c1f4;
-}
-::-webkit-scrollbar-thumb {
-  border-radius: 10px;
-  background: #767469f4;
-}
-
 #fm,
 #fs,
 #fl {
@@ -199,10 +127,19 @@ img {
   border-style: none;
   color: white;
 }
-
 #fm:hover,
 #fs:hover,
 #fl:hover {
   background-color: white;
   color: black;
+}
+::-webkit-scrollbar {
+  width: 9px;
+}
+::-webkit-scrollbar-track {
+  background: #dad7c1f4;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #767469f4;
 }
